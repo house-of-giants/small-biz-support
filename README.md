@@ -15,7 +15,7 @@
   </a>
 </p>
 
-> A barebones Gatsby Starter with Prettier and Styled Components
+> A Gatsby Theme with Prettier, Styled Components and an Airtable connection. Built to help list your town's small businesses, and ways customers can help keep them afloat during difficult times.
 
 ## Install
 
