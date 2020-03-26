@@ -9,7 +9,7 @@ export default ({ data }) => (
 	<Layout>
 		<Head title={`${data.site.siteMetadata.city} Small Biz Support`} titleTemplate="%s" />
 		<StyledContent>
-			<p>Local businesses are vulnerable right now in ways that larger chains are not. To preserve the diversity of small businesses enjoyed in your neighborhood, consider stocking up on gift cards for future purchases if you can. If you can’t, consider writing a glowing Google or Yelp review.</p>
+			<p>Help support ${data.site.siteMetadata.city}'s small businesses by ordering from their online stores, online delivery services, or by calling in an order to take out during these strange times. Doing what we can to help the vibrant community we have thrive, even during times of uncertanty, will help us to maintain what makes our city great. Thank you for your support!</p>
 		</StyledContent>
 	</Layout>
 )
