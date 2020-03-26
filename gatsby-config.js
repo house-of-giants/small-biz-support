@@ -9,9 +9,9 @@ require("dotenv").config({
 
 module.exports = {
 	siteMetadata: {
-		city: 'Denver',
+		city: 'YOUR_CITY_HERE',
 		defaultTitle: `%s Small Biz Support`,
-		defaultTitleTemplate: "%s | Denver Small Biz Support",
+		defaultTitleTemplate: "%s | YOUR_CITY_HERE Small Biz Support",
 		airtableSubmit: "https://airtable.com/shrnYhzKkorYu4OKm",
 		nav: [
 			{
