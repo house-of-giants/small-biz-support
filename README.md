@@ -38,6 +38,8 @@ This command runs `gatsby develop` and will start a server on `localhost:8000` f
 
 This theme is intended for use on a local level. It all starts with a free [Airtable Database](http://airtable.com/). This database will house all the listings for the businesses in your area that could use a helping hand during tough times. Here's the [database setup](https://airtable.com/shrOz63EBaqXFBUVy) I use for Denver. Feel free to use this exact layout, or expand on it! The basic info includes the business name, an online ordering URL, gift card URL (really any URL that can help drive business), phone number, address, and who submitted the listing.
 
+Be sure to copy the `.env.example` to `.env.development` and `.env.production` and add your Airtable API key and the Base ID. More info on how to find that on [Airtable's documentation](https://airtable.com/api)
+
 You can leverage your community by allowing folks to submit businesses as well! Simply add a "Form View" to your Airtable Database and you should be set.
 
 **Note that if you do change the name, or layout of your Airtable database, those changes will need to be reflected in the GraphQL queries in the `./src/components/Listings/Listings.js` and `./src/components/Listings/ListingItem.js` components**
