@@ -44,6 +44,8 @@ You can leverage your community by allowing folks to submit businesses as well! 
 
 **Note that if you do change the name, or layout of your Airtable database, those changes will need to be reflected in the GraphQL queries in the `./src/components/Listings/Listings.js` and `./src/components/Listings/ListingItem.js` components**
 
+*Another note, ensure that the table name in Airtable is "Business List" or change the `tableName` setting in `gatsby-config.js` to reflect your own database!*
+
 As far as customizing colors, fonts, and your city. Start by editing the data in `gatsby-config.js` in the root of this theme.
 
 ```js
