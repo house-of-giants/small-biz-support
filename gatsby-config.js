@@ -45,6 +45,14 @@ module.exports = {
 					{
 						baseId: process.env.AIRTABLE_BASE,
 						tableName: `Business List`,
+						defaultValues: {
+							Added_By: "",
+							Business: "",
+							Business_Type: "",
+							Gift_Card_URL: "",
+							Online_Ordering_URL: "",
+							Phone_Number: ""
+						}
 					},
 				]
 			}
