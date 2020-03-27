@@ -2,9 +2,11 @@ import React from 'react'
 import { graphql, StaticQuery } from 'gatsby'
 
 import ListingItem from './ListingItem'
+import Search from '../Search/Search'
 
 const Listings = ({ data }) => (
 	<div>
+		<Search />
 		{data.map( listing => <ListingItem key={listing.node.data.Business} data={listing.node.data} />)}
 	</div>
 )

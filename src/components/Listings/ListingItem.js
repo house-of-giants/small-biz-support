@@ -18,6 +18,10 @@ const StyledListingItem = styled.div`
 		border-bottom: 1px solid ${colors.text};
 	}
 
+	&.hidden {
+		display: none;
+	}
+
 	& .tag {
 		border-radius: 4px;
 		border: 1px solid ${colors.text};
@@ -39,7 +43,7 @@ const StyledListingItem = styled.div`
 `
 
 const ListingItem = ({ data }) => (
-	<StyledListingItem>
+	<StyledListingItem data-biz={data.Business}>
 		<p className="h5"><strong>{data.Business}</strong></p>
 		<div>
 			<p className="tag">{data.Business_Type}</p>

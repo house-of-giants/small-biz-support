@@ -33,10 +33,6 @@ export const StyledSidebar = styled.nav`
 			text-decoration: none;
 			transition: 300ms ease box-shadow;
 
-			@media(${bp.l}) and (min-height: 62.5em) {
-				font-size: ${fs.xxxl};
-			}
-
 			&:hover,
 			&:focus,
 			&[aria-current] {
